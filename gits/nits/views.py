@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def home(request):
 	return HttpResponse("Hello wordl")
+
+def about(request):
+	return Http Response("About")
