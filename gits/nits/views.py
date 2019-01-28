@@ -8,3 +8,6 @@ def home(request):
 
 def about(request):
 	return Http Response("About")
+
+def jack(request):
+	return Http Response("About")
